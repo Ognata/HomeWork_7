@@ -13,7 +13,7 @@ body{
 .container {
     display: grid;
     width: 100vw;
-    height: 95vh;
+    max-height: 95vh;
     grid-template: 1fr 7fr 1fr/5fr 2fr;
     align-content: space-between;
     background-color: bisque;
